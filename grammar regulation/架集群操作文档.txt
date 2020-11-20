@@ -49,6 +49,9 @@ netstat  -anp  |grep   端口号
 访问某地址
 telnet 172.17.233.55 3000
 start之前复查一遍所有参数
+查看gpu
+lspci命令用于显示当前主机的所有PCI总线信息，以及所有已连接的PCI设备信息。
+lspci | grep -i vga
 pika：
 vim pika.conf 
 ./conf.sh -p 
